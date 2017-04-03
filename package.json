@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"react-bootstrap",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "react-bootstrap",
+    "description": "api documentation for [react-bootstrap (v0.30.8)](https://react-bootstrap.github.io/) [![npm package](https://img.shields.io/npm/v/npmdoc-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-bootstrap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-bootstrap)",
     "devDependencies": {
-        "react-bootstrap": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "react-bootstrap": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-react-bootstrap",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-react-bootstrap",
+    "keywords": [
+        "documentation",
+        "react-bootstrap"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_react_bootstrap.js",
+    "name": "npmdoc-react-bootstrap",
+    "nameAlias": "npmdoc_react_bootstrap",
+    "nameOriginal": "npmdoc-react-bootstrap",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-react-bootstrap.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
