@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/react-bootstrap.png?downloads=true)](https://www.npmjs.com/package/react-bootstrap)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-react-bootstrap_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-react-bootstrap_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-react-bootstrap/build/screenCapture.npmPackageListing.svg)
 
