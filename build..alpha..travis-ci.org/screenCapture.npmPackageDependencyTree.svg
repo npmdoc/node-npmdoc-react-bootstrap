@@ -20,7 +20,7 @@
 <tspan x="10" y="282">│ ├─┬ react-overlays@0.6.12 </tspan>
 <tspan x="10" y="298">│ │ └── UNMET PEER DEPENDENCY react@&gt;=0.14.0</tspan>
 <tspan x="10" y="314">│ ├── react-prop-types@0.4.0 </tspan>
-<tspan x="10" y="330">│ ├── uncontrollable@4.0.3 </tspan>
+<tspan x="10" y="330">│ ├── uncontrollable@4.1.0 </tspan>
 <tspan x="10" y="346">│ └── warning@3.0.0 </tspan>
 <tspan x="10" y="362">└── UNMET PEER DEPENDENCY react-dom@&gt;=0.14.0</tspan>
 </text>
