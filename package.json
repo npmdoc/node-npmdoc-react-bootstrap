@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "react-bootstrap",
-    "description": "#### api documentation for  [react-bootstrap (v0.30.8)](https://react-bootstrap.github.io/)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-bootstrap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-bootstrap)",
+    "description": "#### basic api documentation for  [react-bootstrap (v0.31.0)](https://react-bootstrap.github.io/)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-bootstrap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-bootstrap)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "react-bootstrap": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.4"
+    "version": "2017.4.27"
 }

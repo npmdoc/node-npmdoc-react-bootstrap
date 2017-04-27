@@ -1,6 +1,6 @@
 # npmdoc-react-bootstrap
 
-#### api documentation for  [react-bootstrap (v0.30.8)](https://react-bootstrap.github.io/)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-bootstrap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-bootstrap)
+#### basic api documentation for  [react-bootstrap (v0.31.0)](https://react-bootstrap.github.io/)  [![npm package](https://img.shields.io/npm/v/npmdoc-react-bootstrap.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-react-bootstrap) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-react-bootstrap.svg)](https://travis-ci.org/npmdoc/node-npmdoc-react-bootstrap)
 
 #### Bootstrap 3 components built with React
 
@@ -33,9 +33,10 @@
         "dom-helpers": "^3.2.0",
         "invariant": "^2.2.1",
         "keycode": "^2.1.2",
-        "react-overlays": "^0.6.12",
+        "prop-types": "^15.5.6",
+        "react-overlays": "^0.7.0",
         "react-prop-types": "^0.4.0",
-        "uncontrollable": "^4.0.1",
+        "uncontrollable": "^4.1.0",
         "warning": "^3.0.0"
     },
     "description": "Bootstrap 3 components built with React",
@@ -118,8 +119,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "4ceca8e138ce2351228c4a58d59db00c003ca9c0",
-        "tarball": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-0.30.8.tgz"
+        "shasum": "bbca804c0404d9c640102b2b656ae4cd5bea35c8",
+        "tarball": "https://registry.npmjs.org/react-bootstrap/-/react-bootstrap-0.31.0.tgz"
     },
     "files": [
         "CHANGELOG.md",
@@ -127,7 +128,7 @@
         "dist",
         "es"
     ],
-    "gitHead": "6adbf8a4756b0e14c4417e52e7befb88b258e6ca",
+    "gitHead": "e332baa2162a15fb7e665ca967bd394ba1954b7b",
     "homepage": "https://react-bootstrap.github.io/",
     "jsnext:main": "es/index.js",
     "keywords": [
@@ -156,8 +157,8 @@
     "name": "react-bootstrap",
     "optionalDependencies": {},
     "peerDependencies": {
-        "react": ">=0.14.0",
-        "react-dom": ">=0.14.0"
+        "react": "^0.14.9 || >=15.3.0",
+        "react-dom": "^0.14.9 || >=15.3.0"
     },
     "release-script": {
         "bowerRepo": "git@github.com:react-bootstrap/react-bootstrap-bower.git",
@@ -180,7 +181,8 @@
         "test-browser": "cross-env NODE_ENV=test karma start --single-run",
         "test-node": "mocha --compilers js:babel-register test/server/*Spec.js"
     },
-    "version": "0.30.8"
+    "version": "0.31.0",
+    "bin": {}
 }
 ```
 
